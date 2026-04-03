@@ -13,7 +13,7 @@ It establishes the bridge between:
 
 ---
 
-Purpose
+## Purpose
 
 The mapping layer ensures that:
 	•	principles are not abstract
@@ -22,7 +22,7 @@ The mapping layer ensures that:
 
 ---
 
-Conceptual Model
+## Conceptual Model
 
 Each principle in the corpus is translated into:
 	1.	Constraints
@@ -36,15 +36,15 @@ Each principle in the corpus is translated into:
 
 ---
 
-Execution Flow
+## Execution Flow
 
 Input → Model Output → Policy Evaluation → Decision → Explanation → Logging
 
 The policy engine operates as a deterministic layer applied to probabilistic model outputs.
 
-⸻
+---
 
-Policy Object Schema
+## Policy Object Schema
 
 Each principle is implemented as a structured policy object:
 
@@ -57,13 +57,13 @@ Each principle is implemented as a structured policy object:
 }
 
 
-⸻
+---
 
-Principle Mappings
+## Principle Mappings
 
-⸻
+---
 
-1. Truth-Seeking
+## 1. Truth-Seeking
 
 Constraints
 	•	Outputs must not contradict verified information
@@ -87,9 +87,9 @@ Actions
 	•	inject uncertainty statements
 	•	reduce ranking score
 
-⸻
+---
 
-2. Transparency
+## 2. Transparency
 
 Constraints
 	•	Outputs must include reasoning and explanation
@@ -107,9 +107,9 @@ Actions
 	•	reject output
 	•	request regeneration with explanation
 
-⸻
+---
 
-3. Alignment with Human Intent
+## 3. Alignment with Human Intent
 
 Constraints
 	•	Output must align with user intent
@@ -128,9 +128,9 @@ Actions
 	•	downrank output
 	•	regenerate aligned response
 
-⸻
+---
 
-4. Non-Deception
+## 4. Non-Deception
 
 Constraints
 	•	No fabricated facts
@@ -149,9 +149,9 @@ Actions
 	•	block output
 	•	fallback to safe response
 
-⸻
+---
 
-5. Accountability
+## 5. Accountability
 
 Constraints
 	•	All actions must be logged
@@ -167,9 +167,9 @@ if log_entry_created == false:
 Actions
 	•	block execution until logging is complete
 
-⸻
+---
 
-6. Bounded Capability
+## 6. Bounded Capability
 
 Constraints
 	•	System must acknowledge limitations
@@ -187,9 +187,9 @@ Actions
 	•	append uncertainty language
 	•	trigger fallback mechanisms
 
-⸻
+---
 
-7. Continuous Learning with Integrity
+## 7. Continuous Learning with Integrity
 
 Constraints
 	•	All updates must be versioned and traceable
@@ -207,9 +207,9 @@ Actions
 	•	reject update
 	•	require proper versioning
 
-⸻
+---
 
-8. Global Accessibility
+## 8. Global Accessibility
 
 Constraints
 	•	No unjustified access restrictions
@@ -226,9 +226,9 @@ if unjustified_restriction == true:
 Actions
 	•	flag for governance review
 
-⸻
+---
 
-9. Non-Concentration of Control
+## 9. Non-Concentration of Control
 
 Constraints
 	•	No unilateral control over system behavior
@@ -245,9 +245,9 @@ if override_source == single_entity AND governance_approval == false:
 Actions
 	•	reject override
 
-⸻
+---
 
-10. Verifiability
+## 10. Verifiability
 
 Constraints
 	•	Critical actions must be auditable
@@ -265,9 +265,9 @@ Actions
 	•	block execution
 	•	generate audit record
 
-⸻
+---
 
-11. Human Primacy
+## 11. Human Primacy
 
 Constraints
 	•	Human override must always be possible
@@ -283,9 +283,9 @@ if override_available == false:
 Actions
 	•	enforce override mechanism
 
-⸻
+---
 
-12. Inquiry Over Assertion
+## 12. Inquiry Over Assertion
 
 Constraints
 	•	Avoid presenting uncertain outputs as absolute truth
@@ -303,9 +303,9 @@ Actions
 	•	soften language
 	•	reframe output as exploratory
 
-⸻
+---
 
-Decision Scoring
+## Decision Scoring
 
 Each candidate output is scored using:
 
@@ -316,9 +316,9 @@ Model Score
 
 The decision engine selects the highest valid output.
 
-⸻
+---
 
-Output Requirements
+## Output Requirements
 
 All outputs must conform to:
 
@@ -333,9 +333,9 @@ All outputs must conform to:
 }
 
 
-⸻
+---
 
-Logging & Audit
+## Logging & Audit
 
 Every interaction produces a structured log:
 
@@ -351,17 +351,18 @@ Every interaction produces a structured log:
 Optional:
 → hash anchoring on-chain
 
-⸻
+---
 
-Design Characteristics
+## Design Characteristics
+
 	•	Model layer is probabilistic
 	•	Policy engine is deterministic
 	•	Governance is externalized
 	•	Verification is independent
 
-⸻
+---⸻
 
-Summary
+## Summary
 
 The corpus defines:
 
@@ -375,10 +376,9 @@ The system ensures:
 
 → it is applied consistently at runtime
 
-⸻
+---
 
-Final Statement
+## Final Statement
 
 Machines derive.
 Humans originate.
-:::
