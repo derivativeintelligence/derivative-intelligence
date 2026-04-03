@@ -141,11 +141,11 @@ The next generation of intelligence systems should be:
 
 ## Get Started
 
-	•	Read the Manifesto → /docs/manifesto.md
-	•	Explore the Principles → /docs/principles.md
-	•	Understand the Corpus → /docs/corpus-v0.1.md
-	•	Review the Mapping → /docs/corpus-policy-mapping.md
-	•	Explore the Architecture → /docs/system-architecture.md
+- Read the [Manifesto](docs/manifesto.md)  
+- Explore the [Principles](docs/principles.md)  
+- Understand the [Corpus](docs/corpus-v0.1.md)  
+- Review the [Mapping](docs/corpus-policy-mapping.md)  
+- Explore the [Architecture](docs/system-architecture.md)
 
 ---
 
