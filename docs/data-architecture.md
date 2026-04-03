@@ -1,57 +1,117 @@
-# Data Architecture: Derivative Intelligence Systems
+---
+
+## System Guarantees & Constraints
+
+The DI data architecture enforces a set of non-negotiable guarantees derived from the foundational corpus.
+
+These guarantees ensure that system behavior remains transparent, traceable, and aligned over time.
 
 ---
 
-## Overview
+### Provenance & Traceability
 
-This document defines the data architecture required to support Derivative Intelligence (DI) systems.
+Every data element within the system must include:
 
-The architecture is designed to:
+- source identifier  
+- timestamp  
+- version reference  
+- attribution metadata  
 
-- enforce separation of concerns  
-- preserve data integrity and provenance  
-- enable transparency and auditability  
-- support principle-aligned system behavior  
+This ensures:
 
-This structure is a direct consequence of the foundational corpus:
+- auditability — actions can be inspected and reviewed  
+- reproducibility — outputs can be reconstructed  
+- accountability — responsibility can be assigned  
 
-→ `/docs/corpus-v0.1.md`
-
----
-
-## Design Principles
-
-The data architecture follows these core principles:
-
-- **Separation**: Different classes of knowledge must remain distinct  
-- **Traceability**: All data must have identifiable origin and lineage  
-- **Verifiability**: Critical artifacts must be cryptographically provable  
-- **Governance**: Changes must follow explicit processes  
-- **Non-Deception**: Systems must not conflate source types  
+No data may enter or influence the system without traceable origin.
 
 ---
 
-## Data Classification
+### Verifiability & Cryptographic Integrity
 
-All data in a DI system is organized into four primary classes.
+Critical system artifacts must be verifiable.
+
+This is achieved through:
+
+- cryptographic hashing  
+- optional on-chain anchoring  
+- public verification mechanisms  
+
+Artifacts include:
+
+- foundational corpus versions  
+- governance decisions  
+- system updates  
+- interpretation snapshots  
+
+Verification replaces trust with proof.
 
 ---
 
-## Class 1: Foundational Corpus (Immutable)
+### Non-Deception Constraint
 
-### Description
+The system must preserve strict separation between data classes.
 
-The foundational corpus represents the **constitutional layer** of the system.
+It must never:
 
-It contains the primary source material that defines the system’s grounding.
+- conflate foundational corpus with interpretation  
+- present interpretation as absolute truth  
+- present external knowledge as canonical  
+
+All outputs must clearly reflect:
+
+- source type  
+- level of authority  
+- degree of certainty  
+
+Clarity is a requirement, not a feature.
 
 ---
 
-### Examples
+### Governance Enforcement
 
-- canonical source texts  
-- authoritative reference documents  
-- foundational principles (e.g. corpus-v0.1)  
+All changes to system-relevant data must follow formal governance processes.
+
+This includes updates to:
+
+- interpretation corpus  
+- system behavior  
+- evaluation data structures  
+
+All such changes must comply with:
+
+→ `/governance/governance-model.md`
+
+No system-critical change may occur outside governed processes.
+
+---
+
+## Architectural Outcome
+
+This structure ensures that:
+
+- truth is not conflated with interpretation  
+- knowledge remains traceable and verifiable  
+- system behavior is constrained by principles  
+
+The result is a system that is:
+
+- transparent by design  
+- governed by process  
+- trustworthy at scale  
+
+---
+
+## Final Statement
+
+Data integrity defines system integrity.
+
+Structure defines the boundaries of truth.
+
+Machines derive.  
+Humans originate.
+
+---- foundational principles (e.g. corpus-v0.1)  
 - canonical identifiers and metadata  
 
 ---
