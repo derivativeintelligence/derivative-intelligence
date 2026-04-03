@@ -1,10 +1,8 @@
-:::writing{variant=“standard” id=“84329”}
-
-Corpus → Policy Engine Mapping Specification
+# Corpus → Policy Engine Mapping Specification
 
 ---
 
-Overview
+## Overview
 
 This document defines how the Foundational Corpus is translated into enforceable system behavior.
 
