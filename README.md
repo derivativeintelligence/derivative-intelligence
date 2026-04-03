@@ -1,65 +1,170 @@
 # Derivative Intelligence
 
-**Machines derive. Humans originate.**
+What we’ve been calling Artificial Intelligence is wrong.
+
+These systems don’t originate.
+
+They derive.
 
 ---
 
-## What is this?
+## Overview
 
-Derivative Intelligence (DI) is a new framework for understanding and building intelligent systems.
+Derivative Intelligence (DI) is a framework for understanding and building modern intelligence systems more accurately.
 
-What we commonly call “Artificial Intelligence” is not truly artificial—and not intelligence in the human sense.
+Rather than treating machines as human-like thinkers, DI recognizes that these systems:
 
-It is **derived**.
+- extract patterns from human-generated data  
+- recombine and optimize knowledge  
+- operate through probabilistic inference  
 
-Derived from human knowledge.  
-Shaped by human intuition.  
-Optimizing and recombining patterns at scale.
+They do not create meaning or intent.
 
-This repository is the beginning of a **community-driven, open-source initiative** to redefine how intelligence systems are designed, governed, and trusted.
-
----
-
-## The Reframe
-
-We’ve been calling it Artificial Intelligence.
-
-That framing is misleading.
-
-What we’re actually building is **Derivative Intelligence**:
-
-- Systems trained on human-created data  
-- Systems that optimize patterns we’ve already produced  
-- Systems that do not originate meaning, intent, or true novelty  
-
-Powerful—but not originative.
-
-Understanding this distinction is foundational.
+They derive from what humans have already created.
 
 ---
 
-## Why this matters
+## Core Idea
 
-Misunderstanding these systems leads to:
+Human intelligence is **originative**.
 
-- Overestimating their capabilities  
-- Misplacing trust  
-- Building opaque, unaccountable systems  
+Machine systems are **derivative**.
 
-We believe the next generation of intelligence systems should be:
+This distinction is foundational to how intelligence systems should be:
 
-- **Transparent, not black box**  
-- **Grounded in a reliable corpus of guiding principles**  
-- **Community-driven, not centrally controlled**  
-- **Open-source, not opaque**  
-- **Globally democratized, not concentrated**
+- designed  
+- aligned  
+- governed  
+- trusted  
 
 ---
 
-## Principles (Draft)
+## The Problem with “AI”
 
-This project is grounded in the belief that intelligence systems must be:
+The term “Artificial Intelligence” implies:
 
+- human-like cognition  
+- autonomous reasoning  
+- independent intelligence  
+
+This leads to:
+
+- misaligned expectations  
+- overtrust in opaque systems  
+- poor system design and governance  
+
+---
+
+## A New Framework
+
+Derivative Intelligence proposes:
+
+- a more accurate model of machine capability  
+- a principled approach to system alignment  
+- a transparent governance structure  
+
+---
+
+## The Constitutional Layer
+
+At the core of DI is a **foundational corpus of guiding principles**.
+
+This acts as the **constitutional layer** of intelligence systems.
+
+It defines:
+
+- how systems behave  
+- how they evolve  
+- what they must not violate  
+
+See:  
+→ `/docs/corpus-v0.1.md`
+
+---
+
+## System Architecture
+
+DI systems are built as layered systems:
+
+- **Foundation** → Guiding principles (constitutional layer)  
+- **Interpretation** → Evolving contextual understanding  
+- **Alignment** → System behavior and constraints  
+- **Knowledge** → Dynamic data and inputs  
+- **Governance** → Transparent and auditable evolution  
+
+Where appropriate, critical elements may be:
+
+- cryptographically verifiable  
+- anchored on-chain  
+- publicly auditable  
+
+---
+
+## Key Properties
+
+The next generation of intelligence systems should be:
+
+- transparent, not black box  
+- principle-aligned, not policy-driven  
+- community-governed, not centrally controlled  
+- verifiable, not assumed  
+- globally accessible  
+
+---
+
+## Repository Structure
+
+- `/docs` — Manifesto, principles, terminology  
+- `/governance` — Governance model and processes  
+- `/research` — Papers, comparisons, frameworks  
+- `/contribute` — Contribution guides  
+
+---
+
+## Get Started
+
+- Read the [Manifesto](docs/manifesto.md)  
+- Explore the [Principles](docs/principles.md)  
+- Review the [Terminology](docs/terminology.md)  
+- Understand the [Governance Model](governance/governance-model.md)  
+
+---
+
+## Contributing
+
+Derivative Intelligence is a **community-driven initiative**.
+
+If you are a:
+
+- builder  
+- researcher  
+- engineer  
+- thinker  
+
+You can contribute.
+
+See:  
+→ `/contribute/how-to-contribute.md`
+
+---
+
+## Vision
+
+We envision a future where:
+
+- intelligence systems are transparent  
+- alignment is grounded in principles, not policies  
+- governance is explicit and verifiable  
+- humans remain the source of meaning and intent  
+
+---
+
+## Final Statement
+
+Machines derive.  
+Humans originate.
+
+---
 1. **Explainable by default**  
    Every output should clearly communicate reasoning and inputs.
 
