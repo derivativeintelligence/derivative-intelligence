@@ -6,41 +6,33 @@ We’ve been calling it Artificial Intelligence.
 
 That framing is wrong.
 
-There is nothing artificial about these systems.  
-And they are not intelligent in the human sense.
+What we are building is not intelligence in the human sense.
 
-What we are building is **Derivative Intelligence**.
+It is **Derivative Intelligence** — systems that extract, recombine, and optimize patterns from human knowledge at scale.
+
+Powerful.
+
+Transformative.
+
+But not originative.
 
 ---
 
 ## The Misunderstanding
 
-Modern systems are trained on human-generated data.
+For a long time, we have misunderstood what these systems are.
 
-They learn from:
-- our language  
-- our decisions  
-- our knowledge  
-- our patterns  
+We describe them as intelligent.  
+We compare them to the human mind.  
+We project autonomy where there is dependency.
 
-They do not originate.
+But these systems:
+
+- do not possess intent  
+- do not create meaning  
+- do not originate knowledge  
 
 They derive.
-
----
-
-## The Illusion
-
-When a system produces something new, we assume creation.
-
-But what appears as novelty is often:
-- recombination  
-- optimization  
-- pattern synthesis  
-
-At scale.
-
-Powerful—but not originative.
 
 ---
 
@@ -48,26 +40,122 @@ Powerful—but not originative.
 
 Human intelligence is fundamentally different.
 
+It is **originative**.
+
 It creates:
 - meaning  
-- intent  
 - direction  
+- intention  
 
-It is:
-- intuitive  
-- emotional  
-- non-linear  
+It operates through:
+- intuition  
+- emotion  
+- non-linear insight  
+- inspiration  
 
-It does not simply process what exists.
+Machines process patterns.
 
-It generates what does not.
+Humans create what patterns are.
 
 ---
 
-## The Error
+## Why This Matters
 
-By calling these systems “intelligent” in the human sense, we create confusion.
+This is not semantics.
 
+Mislabeling leads to:
+- misaligned expectations  
+- overtrust in opaque systems  
+- poorly designed infrastructure  
+
+If we misunderstand what these systems are,  
+we will build them incorrectly.
+
+---
+
+## A New Foundation
+
+Derivative Intelligence must be grounded in a **transparent, stable corpus of guiding principles**.
+
+This is the **constitutional layer** of intelligent systems.
+
+It defines:
+- how systems behave  
+- how they evolve  
+- how they remain aligned over time  
+
+This foundation is not controlled.
+
+It is governed.
+
+And it must be:
+- transparent  
+- auditable  
+- enduring  
+
+---
+
+## A Different Direction
+
+The next generation of intelligence systems should be:
+
+- transparent, not black box  
+- principle-aligned, not policy-driven  
+- community-governed, not centrally controlled  
+- open and accessible, not opaque and concentrated  
+- verifiable, not assumed  
+
+Trust should not depend on institutions.
+
+It should be built into the system itself.
+
+---
+
+## The Role of Machines
+
+Machines will:
+
+- extend human capability  
+- accelerate discovery  
+- optimize systems at scale  
+
+But they will not replace the source of intelligence.
+
+They cannot originate.
+
+---
+
+## The Role of Humans
+
+Humans remain:
+
+- the source of meaning  
+- the origin of ideas  
+- the creators of direction  
+
+Intelligence does not emerge from machines.
+
+It is expressed through them.
+
+---
+
+## The Shift
+
+This is the beginning of a shift:
+
+From artificial to derivative  
+From opaque to transparent  
+From centralized to governed  
+From assumed intelligence to defined systems  
+
+---
+
+## Final Statement
+
+Machines derive.  
+Humans originate.
+
+---
 We:
 - overestimate their capabilities  
 - misunderstand their limitations  
